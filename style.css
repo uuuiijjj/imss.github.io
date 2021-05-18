@@ -1,0 +1,206 @@
+
+h1 {
+  color: #3ba2f8;
+  margin-left: 0px;
+  font-size: 40px;
+  
+}
+h2 {
+  color: #3ba2f8;
+  text-align: center;
+  font-size: 40px;
+}
+h3 {
+  color: rgb(51,51,51);
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-block-end: 30px;
+  margin-block-start: 70px;
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
+
+#ft_style2 {
+  text-align: center;
+  font-size: 16px;
+}
+.ft_style3 {
+  font-size: 14px;
+  color: #666!important;
+  line-height: 24px;
+  text-align: match-parent;
+}
+
+.problem_title {
+  font-size: 20px;
+  color: #444444;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #3ba2f8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3ba2f8;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+div {
+  padding-right: 70px;
+  padding-left: 70px;
+  text-align: start;
+  display: block;
+  height:fit-content;
+}
+
+.about_oulu.commonDiv {
+  width:236px;
+  padding:236px;
+  margin: auto;
+  }
+.about_oulu.common {
+    width:236px;
+    padding:236px;
+    text-align: justify;
+    margin: auto;
+    }
+
+#nav {
+  line-height:30px;
+  background-color:#eeeeee;
+  height:196px;
+  width:708px;
+  float:left;
+  padding:5px; 
+}
+
+
+#footer {
+  background: color #4A4A4A;
+  color: 949494;
+  clear:both;
+  text-align:center;
+  padding:5px; 
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #FAFAFA;
+}
+
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.active {
+  background-color: #0074DA;
+  color: #FAFAFA
+}
+li {
+float: right;
+}
+li {
+  border-right: 2px solid #e7e4e4;
+}
+
+li:first-child {
+  border-right: none;
+}
+li a {
+display: block;
+color: 333;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .li a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
+li a:hover:not(.active) {
+background-color: #0074DA;
+color: #FAFAFA;
+}
+.lft {
+  float: left;
+}
+.rgt {
+  float: right;
+}
+img {
+  vertical-align: middle;
+}
+.problem_title {
+  font-size: 20px;
+  color: #444444;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  display: block;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+textarea {
+  resize: vertical;
+}
+textarea {
+  overflow: auto;
+}
+button, input, select, textarea {
+  font-family: inherit;
+}
+
+
